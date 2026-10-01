@@ -947,4 +947,6 @@ a { color: inherit; text-decoration: none; }
   .download-row { flex-direction: column; }
   .contact-grid { grid-template-columns: repeat(2, 1fr); }
   .about-modal { padding: 32px 24px; }
+  .trust-inner { flex-direction: column; gap: 16px; }
+  .trust-sep { display: none; }
 }
