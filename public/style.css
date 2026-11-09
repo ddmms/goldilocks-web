@@ -935,10 +935,15 @@ a { color: inherit; text-decoration: none; }
 
 .contact-card h4 a {
   font-size: inherit;
-  color: inherit;
+  color: var(--blue);
   word-break: normal;
 }
-.contact-card h4 a:hover { color: var(--blue); }
+.contact-card h4 a::after {
+  content: "↗";
+  display: inline-block;
+  margin-left: 0.2em;
+  font-weight: 400;
+}
 
 /* ---------- responsive ---------- */
 @media (max-width: 900px) {
