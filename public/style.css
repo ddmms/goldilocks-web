@@ -600,6 +600,9 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.02em;
 }
 
+.btn-navy { background: var(--navy); color: #ffffff; }
+.btn-navy:hover { background: var(--navy-soft); }
+
 .btn-secondary .btn-track { background: rgba(18, 24, 43, 0.08); color: var(--text-dim); }
 
 .link-more {
