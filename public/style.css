@@ -600,8 +600,13 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.02em;
 }
 
-.btn-navy { background: var(--navy); color: #ffffff; }
-.btn-navy:hover { background: var(--navy-soft); }
+.btn-tonal {
+  background: #e3efff;
+  border: 1px solid rgba(0, 113, 227, 0.25);
+  color: #0058b3;
+}
+.btn-tonal:hover { background: #d6e7ff; }
+.btn-tonal .btn-track { background: rgba(0, 113, 227, 0.12); color: #0058b3; }
 
 .btn-secondary .btn-track { background: rgba(18, 24, 43, 0.08); color: var(--text-dim); }
 
